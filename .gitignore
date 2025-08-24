@@ -1,0 +1,169 @@
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.nfs*
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# =========================
+# Node / Frontend
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.cache/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.pytype/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+coverage.xml
+htmlcov/
+
+# =========================
+# Java / Kotlin
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+.gradle/
+build/
+.gradle-cache/
+.gradle/
+/bin/
+/target/
+
+# =========================
+# C / C++ / Rust / Go
+# =========================
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.out
+*.exe
+*.exe.stackdump
+*.stackdump
+*.gch
+*.pch
+*.dSYM/
+*.gcno
+*.gcda
+*.profraw
+*.profdata
+# CMake / Make
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+Makefile
+makefile
+build.ninja
+CMakeScripts/
+Testing/
+_compile_commands.json
+# Meson / Ninja
+.ninja_deps
+.ninja_log
+meson-private/
+meson-logs/
+# Rust
+target/
+# Go
+bin/
+pkg/
+
+# =========================
+# Swift / Xcode (혹시 사용할 경우)
+# =========================
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+DerivedData/
+*.xcuserstate
+*.playground/**/timeline.xctimeline
+*.playground/**/playground.xcworkspace
+
+# =========================
+# Logs / Temp
+# =========================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# =========================
+# Secrets / Env
+# =========================
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.p12
+*.keystore
+
+# =========================
+# Misc tool caches
+# =========================
+.sass-cache/
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.prettier-cache
+.hypothesis/
+pytestdebug.log
+
+# =========================
+# Keep study sources tracked
+# =========================
+# DO NOT ignore solution files under members/
+# (예: members/<name>/day1_1.cpp 등)
+# If you add generated artifacts there, pattern-ignore explicitly like:
+# members/**/build/

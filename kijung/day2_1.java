@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.IOException;
 
-import java.util.StringTokenzier;
+import java.util.StringTokenizer;
 import java.util.Deque;
 import java.util.LinkedList;
 
@@ -25,7 +25,7 @@ public class Main {
         st = new StringTokenizer(br.readLine());
         for (int i = 0; i < M; i++) {
             int target = Integer.parseInt(st.nextToken());
-            int index = deque.indexOf(target);
+            int index = ((LinkedList<Integer>) deque).indexOf(target);
             int mid = deque.size() / 2;
 
             if (index <= mid) {
@@ -44,6 +44,8 @@ public class Main {
         }
 
         bw.write(result + "");
+        bw.flush();
+        bw.close();
     }
 
     public static void left(Deque<Integer> deque) {

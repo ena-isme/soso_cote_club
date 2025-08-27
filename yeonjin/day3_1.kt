@@ -22,12 +22,13 @@ import java.util.StringTokenizer
 fun main() {
     val br = BufferedReader(InputStreamReader(System.`in`))
     val t = br.readLine().toInt()
+    val sb = StringBuilder()
 
-    repeat(t){
+    repeat(t) {
         val n = br.readLine().toInt()
         val applicants = mutableListOf<Pair<Int, Int>>()
 
-        repeat(n){
+        repeat(n) {
             val st = StringTokenizer(br.readLine())
             val doc = st.nextToken().toInt()
             val interview = st.nextToken().toInt()
@@ -47,6 +48,8 @@ fun main() {
             }
         }
 
-        print(count)
+        sb.append(count).append('\n')
     }
+
+    print(sb.toString())
 }

@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-int main() {
+int day7_1() {
     int N, M;
     scanf("%d %d", &N, &M);
 

@@ -1,5 +1,5 @@
 //
-//  1160.cpp
+//  1106.cpp
 //  codingtest
 //
 //  Created by 신지원 on 9/10/25.
